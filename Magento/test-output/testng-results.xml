@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20453" started-at="2020-07-13T01:28:50 IST" finished-at="2020-07-13T01:29:11 IST">
+  <suite name="Default suite" duration-ms="38002" started-at="2020-07-13T14:38:43 IST" finished-at="2020-07-13T14:39:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20453" started-at="2020-07-13T01:28:50 IST" finished-at="2020-07-13T01:29:11 IST">
-      <class name="com.demoguru99.Magenta.Test.TestCase_01">
-        <test-method status="PASS" signature="pause()[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="pause" is-config="true" duration-ms="107" started-at="2020-07-13T01:28:50 IST" finished-at="2020-07-13T01:28:50 IST">
+    <test name="Default test" duration-ms="38002" started-at="2020-07-13T14:38:43 IST" finished-at="2020-07-13T14:39:21 IST">
+      <class name="com.demoguru99.Magenta.Test.TestCase_07">
+        <test-method status="PASS" signature="pause()[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_07@10bbd20a]" name="pause" is-config="true" duration-ms="107" started-at="2020-07-13T14:38:43 IST" finished-at="2020-07-13T14:38:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pause -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="setUp" is-config="true" duration-ms="7654" started-at="2020-07-13T01:28:50 IST" finished-at="2020-07-13T01:28:58 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_07@10bbd20a]" name="setUp" is-config="true" duration-ms="16219" started-at="2020-07-13T14:38:43 IST" finished-at="2020-07-13T14:39:00 IST">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -20,32 +20,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestVerifyTitle()[pri:1, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="TestVerifyTitle" duration-ms="14" started-at="2020-07-13T01:28:58 IST" finished-at="2020-07-13T01:28:58 IST">
+        <test-method status="PASS" signature="TestOrderPdf()[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_07@10bbd20a]" name="TestOrderPdf" duration-ms="16176" started-at="2020-07-13T14:39:00 IST" finished-at="2020-07-13T14:39:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestVerifyTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="tearDown" is-config="true" duration-ms="1610" started-at="2020-07-13T01:28:58 IST" finished-at="2020-07-13T01:29:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="setUp" is-config="true" duration-ms="7013" started-at="2020-07-13T01:29:00 IST" finished-at="2020-07-13T01:29:07 IST">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestMobileLink()[pri:2, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="TestMobileLink" duration-ms="2400" started-at="2020-07-13T01:29:07 IST" finished-at="2020-07-13T01:29:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMobileLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_01@4e7dc304]" name="tearDown" is-config="true" duration-ms="1626" started-at="2020-07-13T01:29:09 IST" finished-at="2020-07-13T01:29:11 IST">
+        </test-method> <!-- TestOrderPdf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoguru99.Magenta.Test.TestCase_07@10bbd20a]" name="tearDown" is-config="true" duration-ms="5463" started-at="2020-07-13T14:39:16 IST" finished-at="2020-07-13T14:39:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.demoguru99.Magenta.Test.TestCase_01 -->
+      </class> <!-- com.demoguru99.Magenta.Test.TestCase_07 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

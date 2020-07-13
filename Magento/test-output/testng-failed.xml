@@ -3,17 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoguru99.Magenta.Test.TestCase_06">
+      <class name="com.demoguru99.Magenta.Test.TestCase_07">
         <methods>
-          <include name="config"/>
-          <include name="startTest"/>
-          <include name="generateReport"/>
+          <include name="TestOrderPdf"/>
           <include name="pause"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="purchaseItem"/>
         </methods>
-      </class> <!-- com.demoguru99.Magenta.Test.TestCase_06 -->
+      </class> <!-- com.demoguru99.Magenta.Test.TestCase_07 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
