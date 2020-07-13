@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 
 import com.demoguru99.Magenta.Pages.HomePage;
 import com.demoguru99.Magenta.Pages.MobilePage;
+import com.demoguru99.Magenta.Util.BrowserUtilities;
 import com.demoguru99.Magenta.Util.ConfigurationReader;
 import com.demoguru99.Magenta.Util.Driver;
 
@@ -39,21 +40,16 @@ public class TestCase_04 extends TestBase{
 
 		Assert.assertEquals(mp.msgSuccess.getText(), ConfigurationReader.getProperty("successMsgIphone"));
 		
-		String w1 = driver.getWindowHandle();
+//		String w1 = driver.getWindowHandle();
 		//System.out.println(w1);
 		mp.btnCompare.click();
 		Thread.sleep(2000);
-		Set<String> windows =  driver.getWindowHandles();
-		Iterator<String> itr = windows.iterator();
-		String w = w1;
-		while(itr.hasNext())
-		{
-			w = itr.next();
-			if (w == w1)
-				break;
-		}
-		//System.out.println(w);
-		driver.switchTo().window(w);
+		/*
+		 * Set<String> windows = driver.getWindowHandles(); Iterator<String> itr =
+		 * windows.iterator(); String w = w1; while(itr.hasNext()) { w = itr.next(); if
+		 * (w == w1) break; } //System.out.println(w); driver.switchTo().window(w);
+		 */
+		BrowserUtilities.switchToNewWindow();
 		Thread.sleep(1000);
 		driver.manage().window().maximize();
 		WebElement btnClose = driver.findElement(By.xpath("//span[contains(text(),'Close Window')]"));

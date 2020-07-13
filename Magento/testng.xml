@@ -5,6 +5,7 @@
     <classes>
       <class name="com.demoguru99.Magenta.Test.TestCase_07"/>
       <class name="com.demoguru99.Magenta.Test.TestCase_08"/>
+      <class name="com.demoguru99.Magenta.Test.TestCase_09"/>
       <class name="com.demoguru99.Magenta.Test.TestCase_03"/>
       <class name="com.demoguru99.Magenta.Test.TestBase"/>
       <class name="com.demoguru99.Magenta.Test.TestCase_04"/>

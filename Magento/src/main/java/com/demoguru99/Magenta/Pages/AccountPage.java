@@ -54,6 +54,21 @@ public class AccountPage extends HomePage{
 	@FindBy (xpath = "//div[@class='cart-cell']/button[@title = 'Add to Cart']")
 	public WebElement btnAddToCart;
 	
+	@FindBy (xpath = "//td[@class='status']//em[contains(text(),'Pending')]")
+	public WebElement txtOrderStatus;
+	
+	@FindBy (xpath = "//a[contains(text(),'My Orders')]")
+	public WebElement lnkMyOrders;
+	
+	@FindBy (xpath = "//span[@class='nobr']//a[contains(text(),'View Order')]")
+	public WebElement lnkViewOrder;
+	
+	@FindBy (xpath = "//a[@class='link-print']")
+	public WebElement lnkPrintOrder;
+	
+	@FindBy (xpath = "//*[@id=\"sidebar\"]//print-preview-button-strip//cr-button[1]")
+	public WebElement btnPrint;
+	
 	public AccountPage registerNewUser(String firstName, String LastName, String email, String password )
 	{
 		//HomePage.createNewAccount();
