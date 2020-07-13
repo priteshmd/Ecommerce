@@ -74,11 +74,11 @@ public class Checkout {
 	
 	
 	public void enterBillingInfo(String address, String city,String region,  String zip, String Country, String telephone) throws InterruptedException {
-		if(selectAddress.isDisplayed())
-		{
-			BrowserUtilities.waitForElementToAppear(selectAddress);
-			BrowserUtilities.selectByVisibleText(selectAddress, "New Address");
-		}
+//		if(selectAddress.isDisplayed())
+//		{
+//			BrowserUtilities.waitForElementToAppear(selectAddress);
+//			BrowserUtilities.selectByVisibleText(selectAddress, "New Address");
+//		}
 			txtAddress.clear();		
 			txtAddress.sendKeys(address);
 			txtCity.clear();

@@ -30,6 +30,7 @@ public class Driver {
 			{
 				case "firefox":
 					driver = new FirefoxDriver();
+					driver.manage().window().maximize();
 					break;
 					
 				case "chrome":
@@ -42,6 +43,7 @@ public class Driver {
 					
 				case "Edge":
 					driver = new EdgeDriver();
+					driver.manage().window().maximize();
 					break;
 					
 				default:
