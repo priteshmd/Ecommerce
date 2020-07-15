@@ -16,11 +16,13 @@ public class TestCase_03 extends TestBase{
 
 
 		HomePage hp = new HomePage();
+		log.info("Opened Home page");
 		hp.lnkMobile.click();
 		
 		MobilePage mp = new MobilePage();
+		log.info("Opened Mobile page");
 		mp.addToCart(ConfigurationReader.getProperty("product1"));
-		
+		log.info("Product added to cart");
 		CartPage cp = new CartPage();
 		cp.updateCart("1000");
 		
@@ -31,7 +33,7 @@ public class TestCase_03 extends TestBase{
 		
 		cp.btnEmptyCart.click();
 		Assert.assertEquals(cp.errorMsgEmpty.getText(), ConfigurationReader.getProperty("errorMsgEmpty"));
-		
+		log.info("Assertion success, cart empty");
 
 	}
 }

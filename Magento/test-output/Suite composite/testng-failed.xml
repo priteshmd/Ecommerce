@@ -5,15 +5,20 @@
     <classes>
       <class name="com.demoguru99.Magenta.Test.TestCase_07">
         <methods>
-          <include name="config"/>
-          <include name="startTest"/>
-          <include name="generateReport"/>
+          <include name="TestOrderPdf"/>
           <include name="pause"/>
           <include name="setUp"/>
-          <include name="TestReOrder"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.demoguru99.Magenta.Test.TestCase_07 -->
+      <class name="com.demoguru99.Magenta.Test.TestCase_06">
+        <methods>
+          <include name="pause"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="purchaseItem"/>
+        </methods>
+      </class> <!-- com.demoguru99.Magenta.Test.TestCase_06 -->
     </classes>
   </test> <!-- Test purchase for a new user(failed) -->
 </suite> <!-- Failed suite [Suite composite] -->

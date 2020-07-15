@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demoguru99.Magenta.Test.TestCase_07">
+      <class name="com.demoguru99.Magenta.Test.TestCase_09">
         <methods>
-          <include name="TestOrderPdf"/>
           <include name="pause"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="TestDiscountCoupon"/>
         </methods>
-      </class> <!-- com.demoguru99.Magenta.Test.TestCase_07 -->
+      </class> <!-- com.demoguru99.Magenta.Test.TestCase_09 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

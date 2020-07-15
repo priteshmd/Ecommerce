@@ -48,6 +48,7 @@ public class TestCase_08 extends TestBase{
 //		Thread.sleep(3500);
 		
 		String orderId = ck.verifyOrder(ConfigurationReader.getProperty("ordersuccessMsg1"), ConfigurationReader.getProperty("ordersuccessMsg2"));
+		log.info("Order is placed Order Id is "+orderId);
 		System.out.println(orderId);
 		
 	}

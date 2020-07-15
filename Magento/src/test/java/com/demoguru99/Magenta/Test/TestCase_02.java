@@ -20,8 +20,10 @@ public class TestCase_02 extends TestBase {
 		
 
 		HomePage hm = new HomePage();
+		log.info("Opened Home page");
 		hm.lnkMobile.click();
 		MobilePage mp = new MobilePage();
+		log.info("Opened Mobile page");
 		String pr1 = mp.getproductPrice(ConfigurationReader.getProperty("product1"));
 		String pr2 = mp.getproductPrice(ConfigurationReader.getProperty("product2"));
 		String pr3 = mp.getproductPrice(ConfigurationReader.getProperty("product3"));
@@ -29,9 +31,11 @@ public class TestCase_02 extends TestBase {
 		
 		mp.lnkSonyXperia.click();
 		XperiaPage xp = new XperiaPage();
+		log.info("Opened Sony Xperia detail page");
 		String prd1 = xp.getXperiaPrice();
+		
 		Assert.assertEquals(prd1, pr1, "Prices do not match");
-	
+		log.info("assertion passed, price match");
 //		BrowserUtilities.pageNavigateBack();
 //		
 //		mp.lnkIphone.click();
@@ -44,7 +48,7 @@ public class TestCase_02 extends TestBase {
 //		mp.lnkSamsung.click();
 //		SamsungPage sp = new SamsungPage();
 //		String prd3 = sp.getSamsungPrice();
-//		
+//	
 //		Assert.assertEquals(prd3, pr3, "Prices do not match");
 	}
 }

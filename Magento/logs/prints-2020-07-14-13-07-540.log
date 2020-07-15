@@ -1,0 +1,6 @@
+13:29:24.933 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Mobile page
+13:29:28.128 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Sony Xperia detail page
+13:29:28.181 [main] INFO  com.demoguru99.Magenta.Test.TestBase - assertion passed, price match
+13:29:29.858 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed
+13:29:37.606 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page
+13:33:02.398 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page

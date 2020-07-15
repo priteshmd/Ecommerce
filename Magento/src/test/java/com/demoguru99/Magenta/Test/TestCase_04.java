@@ -37,7 +37,7 @@ public class TestCase_04 extends TestBase{
 		Thread.sleep(2000);
 		mp.lnkIphoneCompare.click();
 		Thread.sleep(2000);
-
+		
 		Assert.assertEquals(mp.msgSuccess.getText(), ConfigurationReader.getProperty("successMsgIphone"));
 		
 //		String w1 = driver.getWindowHandle();

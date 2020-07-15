@@ -1,0 +1,6 @@
+13:29:08.966 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened homepage
+13:29:10.874 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Mobile page and verified page title
+13:29:13.489 [main] INFO  com.demoguru99.Magenta.Test.TestBase - products are sorted
+13:29:15.155 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed
+13:29:22.988 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page
+13:29:22.992 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Home page

@@ -1,0 +1,9 @@
+13:33:03.723 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Home page
+13:33:04.233 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Mobile page
+13:33:05.311 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Opened Mobile page
+13:33:06.592 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Product added to cart
+13:33:07.023 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Product added to cart
+13:33:09.708 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Assertion success, cart empty
+13:33:10.652 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Assertion success, cart empty
+13:33:12.016 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed
+13:33:12.767 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed

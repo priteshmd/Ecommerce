@@ -56,10 +56,10 @@ public class Driver {
 	}
 	public static WebDriver getDriver()
 	{
-		return getDriver(null);
+		return driver;
 	}
 	public static void closeDriver() {
-		if(driver!= null)
+		if(driver != null)
 		{
 			driver.quit();
 			driver = null;

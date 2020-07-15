@@ -1,0 +1,6 @@
+13:41:05.343 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page
+13:41:11.767 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Discount coupon is valid
+13:41:13.406 [main] ERROR com.demoguru99.Magenta.Test.TestBase - Grand total is incorrect, discount not applied!
+13:41:15.138 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed
+14:53:13.668 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page
+14:53:19.194 [main] INFO  com.demoguru99.Magenta.Test.TestBase - Discount coupon is valid

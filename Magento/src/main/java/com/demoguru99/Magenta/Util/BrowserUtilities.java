@@ -2,12 +2,18 @@ package com.demoguru99.Magenta.Util;
 
 import org.openqa.selenium.WebDriver.Timeouts;
 
+import java.io.File;
+import java.io.IOException;
+import java.sql.Timestamp;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -83,6 +89,21 @@ public class BrowserUtilities {
 		}
 		//System.out.println(w);
 		driver.switchTo().window(w);
+	}
+	public static String getCurrentTime() {
+
+		 Timestamp timestamp= new Timestamp(System.currentTimeMillis());     
+	     String localDateTime=timestamp.toLocalDateTime().toString();  
+	     String t = localDateTime.replaceAll(":", "").replaceAll("-", "").replace("T", "").replace(".", "");
+	     return t;  
+	}
+	public static void getScreenShot(String t , WebDriver driver) throws IOException {
+		
+		TakesScreenshot scr = (TakesScreenshot) driver;
+		File src = scr.getScreenshotAs(OutputType.FILE);
+		String dest = System.getProperty("user.dir") + "\\reports\\" + t +"_"+ getCurrentTime() + ".png";
+		FileUtils.copyFile(src, new File(dest));
+		
 	}
 }
 

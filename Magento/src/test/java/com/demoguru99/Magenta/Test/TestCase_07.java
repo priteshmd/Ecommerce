@@ -31,6 +31,6 @@ public class TestCase_07 extends TestBase {
 		String printUrl = ap.lnkPrintOrder.getAttribute("href");
 
 	    Driver.getDriver().navigate().to(printUrl);
-		
+		log.debug("Print page opened, pdf not saved");
 	}
 }

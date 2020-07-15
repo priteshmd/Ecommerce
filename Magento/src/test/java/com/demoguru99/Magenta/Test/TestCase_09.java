@@ -18,14 +18,16 @@ public class TestCase_09  extends TestBase{
 		CartPage cp = new MobilePage().addToCart(ConfigurationReader.getProperty("product3"));
 		
 		cp.applyCouponCode("GURU50");
-
+		
 		cp.verifyDiscount();
+		log.info("Discount coupon is valid");
 		try  {
 		cp.verifyGrandTotalAfterdDiscount();
 		}
-		catch(AssertionError e)
+		catch(Exception e)
 		{
 			System.out.println(e.getMessage());
+			log.error("Grand total is incorrect, discount not applied!");
 		}
 	}
 }

@@ -1,0 +1,6 @@
+13:26:19.529 [main] INFO  com.demoguru99.Magenta.Test.TestBase - products are sorted
+13:26:21.657 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed
+13:28:58.845 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page
+13:28:58.868 [main] INFO  com.demoguru99.Magenta.Test.TestBase - info Page title is correct
+13:29:00.541 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - browser closed
+13:29:08.896 [main] DEBUG com.demoguru99.Magenta.Test.TestBase - Open home page
